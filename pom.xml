@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
+
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>creagnanubhal.booking</groupId>
 	<artifactId>creagnanubhal-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>2016.R01.001-SNAPSHOT</version>
-	
+
 	<modules>
 		<module>creagnanubhal-dao</module>
 		<module>creagnanubhal-web</module>
@@ -28,4 +28,12 @@
 		</plugins>
 	</build>
 
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.9</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
